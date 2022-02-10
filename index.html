@@ -1,0 +1,240 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>CV Joey de Kort</title>
+</head>
+
+<body>
+    <div id="navigationBar">
+        <ul class="nav">
+            <li><a href="http://www.linkedin.com/in/joeydekort" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/JoeydeKort" target="_blank">Github</a></li>
+            <li><a href="https://github.com/JoeydeKort/PalindromeCheckerWithGUI.git" target="_blank">Follow my new
+                    project</a></li>
+        </ul>
+    </div>
+
+    <section class="topSection">
+        <div class="row">
+
+            <div class="card" id="titleBlock">
+                <img src="images/Joey de kort.jpg" alt="Profile picture Joey de Kort">
+                <h1>Joey de Kort</h1>
+                <h6>Java developer</h6>
+                <p><button class="open-button" onclick="openForm()" id="buttonCard">Contact me</button></p>
+            </div>
+
+            <div class="form-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                    <h1>Contact me</h1>
+                    <ul id="contactInfo">
+                        <li><a href="https://www.google.be/maps/place/Brussel/@50.8445903,4.3132732,12z/data=!4m5!3m4!1s0x47c3a4ed73c76867:0xc18b3a66787302a7!8m2!3d50.8476424!4d4.3571696"
+                                target="_blank">Current location: Brussels, Belgium</a></li><br>
+                        <li><a href="mailto:dekort.jdk@gmail.com">E-mail me at: dekort.jdk@gmail.com</a></li><br>
+                        <li><a href="http://www.linkedin.com/in/joeydekort" target="_blank">Follow me on: LinkedIn</a></li><br>
+                        <li><a href="https://github.com/JoeydeKort" target="_blank">Follow me on: Github</a></li><br>
+                    </ul>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+            </div>
+
+
+            <div class="block" id="aboutMe">
+                <h3>About me</h3>
+                <p>
+                    Looking at my cv, you might notice my background in retail and logistics. As there were limited
+                    challenges left for me there, I decided to focus on my old passion: IT.
+                    That is why I started a Java course at Intec Brussels in June 2021.
+                </p>
+                <br>
+                <p>
+                    What can you expect from me? I am always in a good mood, I don't see problems but solutions, and I
+                    am a hard worker who is quick to pick up new information and who wants to take that extra step.
+                </p>
+            </div>
+            <div class="block" id="skills">
+                <h3>Skills</h3>
+                <h6>Java fundamentals</h6>
+                <div class="progress-container">
+                    <div class="progress java"></div>
+                </div>
+                <h6>Spring</h6>
+                <div class="progress-container">
+                    <div class="progress spring"></div>
+                </div>
+                <h6>HTML/ CSS</h6>
+                <div class="progress-container">
+                    <div class="progress HTML"></div>
+                </div>
+                <h6>Javascript</h6>
+                <div class="progress-container">
+                    <div class="progress js"></div>
+                </div>
+                <h6>Markdown language</h6>
+                <div class="progress-container">
+                    <div class="progress mk"></div>
+                </div>
+                <h6>Git</h6>
+                <div class="progress-container">
+                    <div class="progress git"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="midSection">
+        <div class="row">
+
+            <div class="block" id="education">
+                <h3>Education</h3>
+                <ul class=timeline>
+                    <li class=event>
+                        <span class=durantion>2021 - 2022</span>
+                        <div class="content">
+                            <h4>Java developer</h4>
+                            <p><em>Intec Brussel</em></p>
+                            <p> </p>
+                        </div>
+                    </li>
+                    <li class=event>
+                        <span class=durantion>2003 - 2007</span>
+                        <div class="content">
+                            <h4> MBO 4 MANAGER / ENTREPRENEUR </h4>
+                            <p><em>De Rooi Pannen</em></p>
+                            <p>Plus package commercial and mini business</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="block" id="languages">
+                <h3>Languages</h3>
+                <h6>Dutch</h6>
+                <div class="progress-container">
+                    <div class="progress dutch"></div>
+                </div><br>
+                <h6>English</h6>
+                <div class="progress-container">
+                    <div class="progress english"></div>
+                </div><br>
+                <h6>French</h6>
+                <div class="progress-container">
+                    <div class="progress french"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bottomSection">
+        <button id="buttonToTable" class="button" onclick="hideShowTable()"> Work experience</button>
+
+        <div id="workExperience">
+            <div class="block">
+                <h3>Experiences</h3>
+                <ul class=timeline>
+                    <li class=event>
+                        <span class=durantion>
+                            <div style="color:#888;">Nov</div> 2018 - <div style="color:#888;">May</div> 2021
+                        </span>
+                        <div class="content">
+                            <h4>INTERIM MANAGER</h4>
+                            <p>Eyes and More / Belgium </p>
+                            <p>Ensuring that stores are representative, commercial and up-to-date. Coaching and
+                                training staff in sales and basic optical knowledge, and analyzing figures.</p>
+                        </div>
+                    </li>
+                    <li class=event>
+                        <span class=durantion>
+                            <div style="color:#888;">Jul</div> 2018 - <div style="color:#888;">Nov</div> 2018
+                        </span>
+                        <div class="content">
+                            <h4>TEAM LEADER LOGISTICS</h4>
+                            <p>Eyes and More / The Netherlands</p>
+                            <p>Led a project to increase the quality of products delivered.</p>
+                        </div>
+                    </li>
+                    <li class=event>
+                        <span class=durantion>
+                            <div style="color:#888;">Nov</div> 2017 - <div style="color:#888;">Mar</div> 2018
+                        </span>
+                        <div class="content">
+                            <h4>LOGISTICS PLANNER</h4>
+                            <p>CLDN / Luxembourg</p>
+                            <p>Planning cargo between the ports of Rotterdam, Zeebrugge and Dublin. Communication
+                                and mediation between ships and ports. Preparing customs administration and
+                                documents such as IMDGs.</p>
+                        </div>
+                    </li>
+                    <li class=event>
+                        <span class=durantion>
+                            <div style="color:#888;">May</div> 2016 - <div style="color:#888;">Nov</div> 2017
+                        </span>
+                        <div class="content">
+                            <h4>TEAM LEADER LOGISTICS</h4>
+                            <p>Eyes and More / The Netherlands</p>
+                            <p>Coaching and training staff. Responsible for the quality of the product. Responsible
+                                for deliveries throughout Europe. Point of contact for customers (inbound and
+                                outbound). Managing 25 FTEs.</p>
+                        </div>
+                    </li>
+                    <li class=event>
+                        <span class=durantion>
+                            <div style="color:#888;">Nov</div> 2011 - <div style="color:#888;">May</div> 2016
+                        </span>
+                        <div class="content">
+                            <h4>STORE MANAGER</h4>
+                            <p>Eyes and More / The Netherlands</p>
+                            <p>Ensuring that the store is representative, commercial and up-to-date. Coaching and
+                                training staff. Responsible for budget and customer satisfaction. Managing 5 FTEs.
+                            </p>
+                        </div>
+                    </li>
+                    <li class=event>
+                        <span class=durantion>2009 - <div style="color:#888;">Nov</div> 2011</span>
+                        <div class="content">
+                            <h4>STORE MANAGER</h4>
+                            <p>Shoe outlet b.v. / The Netherlands</p>
+                            <p>Ensuring that the store is representative, commercial and up-to-date. Coaching and
+                                training staff. Responsible for budget and customer satisfaction. Managing 15 FTEs.
+                            </p>
+                        </div>
+                    </li>
+                    <li class=event>
+                        <span class=durantion>2004 - 2009</span>
+                        <div class="content">
+                            <h4>ASSISTANT STORE MANAGER</h4>
+                            <p>Mevio schoenen b.v. / The Netherlands</p>
+                            <p>In absense of the store manager, responsible for budget and customer satisfaction.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer">
+        <div id="contact">
+            <ul>
+                <li><a href="http://www.linkedin.com/in/joeydekort" target="_blank"><img src="images/linkedin.png"
+                            alt="LinkedIn"></a></li>
+                <li><a href="https://www.google.be/maps/place/Brussel/@50.8445903,4.3132732,12z/data=!4m5!3m4!1s0x47c3a4ed73c76867:0xc18b3a66787302a7!8m2!3d50.8476424!4d4.3571696"
+                        target="_blank"><img src="images/locationPin.png" alt="my location"></a></li>
+                <li><a href="https://github.com/JoeydeKort" target="_blank"><img src="images/github.png"
+                            alt="Github"></a></li>
+                <li><a href="mailto:dekort.jdk@gmail.com"><img src="images/email.png"
+                            alt="My email"></a></li>
+            </ul>
+        </div><br>
+        <p>Designed by - Joey de Kort</p>
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
