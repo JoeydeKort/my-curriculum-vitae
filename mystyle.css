@@ -250,7 +250,7 @@ button {
     margin-top: 30px;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:800px) {
     .topSection, .midSection, .bottomSection, .row, .block, #titleBlock,
     #aboutMe, #skills, #education, #languages, #footer, #contact {
         display: block;
@@ -299,9 +299,12 @@ button {
     }
         #navigationBar {
             position: absolute;
-            padding: 20px;
             width: 100%;
             margin: 0 auto;
+        }
+
+        #titleBlock{
+            margin-top: 75px;
         }
 
         #myForm{
@@ -313,7 +316,7 @@ button {
         }
 
         #languages {
-            margin-bottom: -75px;
+            margin-bottom: -100px;
         }
 
         #buttonToTable {
